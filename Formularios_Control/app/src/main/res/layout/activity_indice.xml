@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/indice.text.formulario"
+        android:id="@+id/btn_indice_nuevoformulario"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/indice.text.ver_datos"
+        android:id="@+id/btn_indice_verdatos" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/indice.text.enviar_servidor"
+        android:id="@+id/btn_indice_guardarservidor"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/indice.text.eliminar_local"
+        android:id="@+id/btn_indice_eliminarlocal"/>
+
+</LinearLayout>

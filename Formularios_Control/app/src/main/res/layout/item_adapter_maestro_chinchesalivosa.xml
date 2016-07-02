@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Id"
+                android:textSize="25dp"
+                android:id="@+id/txt_maestro_chinchesalivosa_idform"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="150dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Fecha Muestreo"
+                        android:textSize="10dp"
+                        android:id="@+id/txt_maestro_chinchesalivosa_fechamuestreo"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nombre Responsable"
+                    android:textSize="10dp"
+                    android:id="@+id/txt_maestro_chinchesalivosa_nombreresp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cargo Responsable"
+                        android:textSize="10dp"
+                        android:id="@+id/txt_maestro_chinchesalivosa_cargoresp"/>
+                </TableRow>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No. Finca"
+                        android:textSize="10dp"
+                        android:id="@+id/txt_maestro_chinchesalivosa_nofinca"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Lote"
+                        android:textSize="10dp"
+                        android:id="@+id/txt_maestro_chinchesalivosa_lote"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Area"
+                        android:textSize="10dp"
+                        android:id="@+id/txt_maestro_chinchesalivosa_area" />
+                </TableRow>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="100dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No. Ficha"
+                        android:textSize="10dp"
+                        android:id="@+id/txt_maestro_chinchesalivosa_noficha"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No. Muestreo"
+                        android:textSize="10dp"
+                        android:id="@+id/txt_maestro_chinchesalivosa_nomuestreo" />
+                </TableRow>
+            </LinearLayout>
+        </TableRow>
+    </LinearLayout>
+
+
+</RelativeLayout>

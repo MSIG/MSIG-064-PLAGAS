@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="60px"
+        android:id="@+id/txt_detalle_id_form"/>
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="60px"
+        android:text="Estacion"
+        android:textSize="15sp"
+        android:id="@+id/txt_detalle_estacion"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAlignment="center" />
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="60px"
+        android:text="Vivos"
+        android:textSize="15sp"
+        android:id="@+id/txt_detalle_vivos"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/txt_detalle_estacion"
+        android:layout_toEndOf="@+id/txt_detalle_estacion"
+        android:textAlignment="center" />
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="60px"
+        android:text="Ninfa1"
+        android:textSize="15sp"
+        android:id="@+id/txt_detalle_ninfa1"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/txt_detalle_vivos"
+        android:layout_toEndOf="@+id/txt_detalle_vivos"
+        android:textAlignment="center" />
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="60px"
+        android:text="Ninfa2"
+        android:textSize="15sp"
+        android:id="@+id/txt_detalle_ninfa2"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/txt_detalle_ninfa1"
+        android:layout_toEndOf="@+id/txt_detalle_ninfa1"
+        android:textAlignment="center" />
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="60px"
+        android:text="Tallos"
+        android:textSize="15sp"
+        android:id="@+id/txt_detalle_tallos"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/txt_detalle_ninfa2"
+        android:layout_toEndOf="@+id/txt_detalle_ninfa2"
+        android:textAlignment="center" />
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="60px"
+        android:text="Calc."
+        android:textSize="15sp"
+        android:id="@+id/txt_detalle_calculo"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/txt_detalle_tallos"
+        android:layout_toEndOf="@+id/txt_detalle_tallos"
+        android:textAlignment="center" />
+
+</RelativeLayout>

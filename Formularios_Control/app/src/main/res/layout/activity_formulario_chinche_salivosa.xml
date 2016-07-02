@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".formularios.FormularioChincheSalivosa">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutTable">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <EditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="number"
+                            android:textSize="18dp"
+                            android:ems="9"
+                            android:id="@+id/txt_head_Numero_finca"
+                            android:hint="@string/head.text.finca"/>
+                    </android.support.design.widget.TextInputLayout>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <EditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/txt_head_Lote"
+                            android:inputType="number"
+                            android:ems="9"
+                            android:textSize="18dp"
+                            android:hint="@string/head.text.lote"
+                            android:layout_gravity="right|top" />
+                    </android.support.design.widget.TextInputLayout>
+
+                </TableRow>
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textSize="18dp"
+                    android:id="@+id/txt_head_no_ficha"
+                    android:ems="9"
+                    android:hint="@string/head.text.no_ficha"/>
+            </android.support.design.widget.TextInputLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="fill|end">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:inputType="none"
+                            android:ems="9"
+                            android:textSize="18dp"
+                            android:id="@+id/txt_head_Fecha_muestreo"
+                            android:hint="@string/head.text.fecha_muestreo"
+                            android:focusableInTouchMode="false"
+                            android:onClick="setDate"/>
+                    </android.support.design.widget.TextInputLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <EditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="number"
+                            android:ems="9"
+                            android:textSize="18dp"
+                            android:id="@+id/txt_head_Numero_muestra"
+                            android:hint="@string/head.text.no_muestreo"
+                            android:layout_gravity="right|top" />
+                    </android.support.design.widget.TextInputLayout>
+                </TableRow>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <EditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="text"
+                            android:ems="9"
+                            android:textSize="18dp"
+                            android:id="@+id/txt_head_Cargo_resp"
+                            android:hint="@string/head.text.cargo_resp"/>
+                    </android.support.design.widget.TextInputLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <EditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="numberDecimal"
+                            android:hint="@string/head.text.area"
+                            android:id="@+id/txt_head_area"
+                            android:textSize="18dp"
+                            android:ems="9"
+                            android:layout_gravity="right|top" />
+                    </android.support.design.widget.TextInputLayout>
+                </TableRow>
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:ems="9"
+                    android:textSize="18dp"
+                    android:id="@+id/txt_head_Nombre_resp"
+                    android:hint="@string/head.text.nombre_resp"/>
+            </android.support.design.widget.TextInputLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:baselineAligned="false">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/form_chinchesalivosa_btn_adddetalle"
+                        android:id="@+id/btn_chinchesalivosa_adddetalle" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/form_detalle_chinchesalivosa_btn_actualizar"
+                        android:id="@+id/btn_form_chinchesalivosa_actualizar"/>
+                </TableRow>
+            </LinearLayout>
+        </TableRow>
+    </LinearLayout>
+
+    <include
+        android:layout_below="@+id/layoutTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tipDetalle"
+        layout="@layout/activity_ver_detalle_chinche_salivosa"
+        />
+
+</RelativeLayout>

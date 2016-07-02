@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Registro de muestreo</string>
+    <string name="head.text.finca">Numero de finca</string>
+    <string name="head.text.no_ficha">Numero de ficha</string>
+    <string name="head.text.lote">Lote</string>
+    <string name="head.text.area">Area</string>
+    <string name="head.text.fecha_muestreo">Fecha muestreo</string>
+    <string name="head.text.no_muestreo">Numero muestreo</string>
+    <string name="head.text.cargo_resp">Cargo responsable</string>
+    <string name="head.text.nombre_resp">Nombre responsable</string>
+
+    <string name="indice.text.formulario">Llenar formulario</string>
+    <string name="indice.text.ver_datos">Ver datos</string>
+    <string name="indice.text.enviar_servidor">Enviar a Central</string>
+    <string name="indice.text.eliminar_local">Eliminar del movil</string>
+    <string name="form_chinchesalivosa_btn_adddetalle">Agregar detalle</string>
+    <string name="abc_estiva">Estacion</string>
+    <string name="abc_vivos">Vivos</string>
+    <string name="abc_ninfa1">Ninfa 1</string>
+    <string name="abc_ninfa2">Ninfa 2</string>
+    <string name="abc_tallos">Tallos</string>
+    <string name="abc_cancelar">Cancelar</string>
+    <string name="abc_aceptar">Aceptar</string>
+    <string name="abc_modificar">Modificar</string>
+    <string name="abc_eliminar">Eliminar</string>
+    <string name="abc_tituloDetalle">Agregar detalle</string>
+    <string name="abc_statusEnviando">Espere un momento mientras los datos se envian...</string>
+    <string name="form_detalle_chinchesalivosa_btn_actualizar">Actualizar detalle</string>
+</resources>
